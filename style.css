@@ -12,6 +12,25 @@ html, body{
     width: 100%;
 }
 
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+
+#cursor-blur{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(249, 249, 18, 0.202);
+    border-radius: 50%;
+    position: fixed;
+    filter:blur(50px);
+    z-index: 9;
+}
+
 #nav{
     height: 120px;
     width: 100%;
@@ -55,6 +74,7 @@ video{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    z-index: 10;
 }
 
 #page1 h1{
@@ -91,5 +111,10 @@ video{
 #page2{
     height: 100vh;
     width: 100%;
+    z-index: 10;
 }
+
+
+/* Now for page 2 animation we will use "GSAP scroll trigger" and to use that we look for gsap CDN 
+which is JS library use for moving animation. and there is plugin called scroll trigger */
 
