@@ -123,25 +123,37 @@ which is JS library use for moving animation. and there is plugin called scroll 
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    position: relative;
+    z-index: 10;
 }
+
+#scroller::-webkit-scrollbar{
+    display: none;
+}
+
 
 #scroller-in{
     display: inline-block;
     white-space: nowrap;
     animation-name: scroll;
-    animation-duration: 20s;
+    animation-duration: 25s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
 #scroller h4{
     display: inline-block;
-    font-size: 140px;
+    font-size: 120px;
     font-weight: 900;
     font-family: gilroy;
     margin-right: 20px;
+    transition: all linear 0.5s;
     color: transparent;
     -webkit-text-stroke: 2px #95C11E;
+}
+
+#scroller h4:hover{
+    color: #95C11E;
 }
 
 
@@ -152,4 +164,67 @@ which is JS library use for moving animation. and there is plugin called scroll 
     to{
         transform: translateX(-100%);
     }
+}
+
+#about-us{
+    height:40vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 60px;
+    position: relative;
+    z-index: 10;
+}
+
+#about-us img{
+    height: 185px;
+    width: 185px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+#info{
+    width: 48%;
+    text-align: center;
+}
+
+#info h3{
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+#info p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#card-container{
+    height: 60vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card{
+    height: 75%;
+    width: 22%;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+#card1{
+    background-image: url();
+}
+
+#card2{
+    background-image: url();
+}
+
+#card3{
+    background-image: url();
 }
