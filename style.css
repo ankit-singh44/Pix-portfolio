@@ -10,7 +10,6 @@
 html, body{
     height: 100%;
     width: 100%;
-    perspective: ;
 }
 
 #cursor{
@@ -225,15 +224,51 @@ which is JS library use for moving animation. and there is plugin called scroll 
 }
 
 #card1{
-    background-image: url(album/temp.jpg);
+    background-image: url(cards/cat.jpg);
 }
 
 #card2{
-    background-image: url(album/spy.jpg);
+    background-image: url(cards/spideR.jpg);
 }
 
 #card3{
-    background-image: url(album/cat.jpg);
+    background-image: url(cards/frog.jpg);
+}
+
+#card4{
+    background-image: url(cards/kumharr.jpg);
+}
+
+#card5{
+    background-image: url(cards/temp.jpg);
+}
+
+#card6{
+    background-image: url(cards/rickhaw.jpg );
+}
+
+#card7{
+    background-image: url(cards/hill.jpg);
+}
+
+#card8{
+    background-image: url(cards/hill2.jpg);
+}
+
+#card9{
+    background-image: url(cards/hill3.jpg);
+}
+
+#card10{
+    background-image: url(cards/grany.jpg);
+}
+
+#card11{
+    background-image: url(cards/doggy.jpg);
+}
+
+#card12{
+    background-image: url(cards/child.jpg);
 }
 
 .overlay{
