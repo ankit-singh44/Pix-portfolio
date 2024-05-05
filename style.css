@@ -47,9 +47,10 @@ html, body{
 #nav img{
     height: 76px;
 }
-#nav h4{
+#nav a h4{
     text-transform: uppercase;
     font-weight: 550;
+    text-decoration: none;
 }
 
 video{
@@ -201,7 +202,40 @@ which is JS library use for moving animation. and there is plugin called scroll 
     line-height: 25px;
 }
 
-#card-container{
+#card-container-1{
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+#card-container-2{
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+#card-container-3{
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+#card-container-4{
     height: 60vh;
     /* background-color: red; */
     display: flex;
